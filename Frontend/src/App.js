@@ -43,7 +43,7 @@ class Home extends Component {
     console.log("hello word");
     var config = {
       method: "get",
-      url: "http://192.168.0.100:8000/userregister/alluser",
+      url: "http://localhost:8000/userregister/alluser",
       headers: { "Access-Control-Allow-Origin": "http://localhost:8000" },
     };
     axios(config)
